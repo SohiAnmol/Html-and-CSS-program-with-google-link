@@ -1,0 +1,141 @@
+#header {
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  width: 98%;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+}
+
+
+#header h1 {
+  font-size: 1.5em;
+  color: #ffffff;
+  margin-right: auto;
+}
+
+#navigation {
+  display: flex;
+  list-style-type: none;
+
+}
+
+#navigation li {
+  display: inline-block;
+  color: #ffffff;
+  border-style: solid;
+  border-color: #ffffff;
+  text-decoration: underline;
+
+}
+
+#navigation a {
+  display: block;
+  padding: 8px 13px;
+  color: #000000;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#navigation a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#body {
+  margin: 20px;
+  padding-top: 60px;
+}
+
+#content_container {
+  max-width: 600px;
+  padding-top: 100px;
+
+}
+
+ol li {
+  padding: 5px;
+}
+
+.box_model {
+  box-sizing: border-box;
+  max-width: 600px;
+  padding: 30px 30px 10px 30px;
+  margin-bottom: 10px;
+  position: absolute;
+  margin-top: 90px;
+}
+
+.box_model div {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#box1 {
+  position: absolute;
+  width: 300px;
+  left: 150px;
+  text-align: center;
+  z-index: 4;
+  background-color: #FFFFFF;
+}
+
+#box1 div {
+  padding: 10%;
+}
+
+#box2 {
+  position: absolute;
+  text-align: center;
+  z-index: 3;
+  background-color: #BBBBBB;
+  width: 380px;
+  left: 110px;
+  padding-top: 100px;
+  margin-top: -30px;
+}
+
+#box3 {
+  position: absolute;
+  text-align: center;
+  z-index: 2;
+  background-color: #999999;
+  width: 460px;
+  left: 70px;
+  padding-top: 180px;
+  margin-top: -70px;
+}
+
+#box4 {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  background-color: #666666;
+  width: 540px;
+  left: 30px;
+  padding-top: 260px;
+  margin-top: -110px;
+}
+
+#box1 a {
+  text-decoration: none;
+  color: black;
+}
+
+#box1 a :visited {
+  color: white;
+}
+
+.box_model a :hover {
+  color: white;
+  background-color: black;
+}
+
+.box_model a:visited {
+  color: black;
+}
+
+#imageCSS {
+  margin-top: 350px;
+}
